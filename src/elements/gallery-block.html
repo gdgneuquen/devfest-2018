@@ -128,14 +128,56 @@
     </style>
 
     <div class="photos-grid">
-      <template is="dom-repeat" items="[[gallery]]" as="photo">
+      <!-- <template is="dom-repeat" items="[[gallery]]" as="photo"> -->
         <plastic-image
           class="grid-item"
-          srcset="[[photo.url]]"
+          srcset="images/galeria/20171111_092224.jpg"
           sizing="cover"
           lazy-load preload fade
         ></plastic-image>
-      </template>
+        <plastic-image
+          class="grid-item"
+          srcset="images/galeria/20171111_113851.jpg"
+          sizing="cover"
+          lazy-load preload fade
+        ></plastic-image>
+        <plastic-image
+        class="grid-item"
+        srcset="images/galeria/20171111_140037.jpg"
+        sizing="cover"
+        lazy-load preload fade
+      ></plastic-image>
+      <plastic-image
+      class="grid-item"
+      srcset="images/galeria/DevfestNQN-2017-mañana5.jpg"
+      sizing="cover"
+      lazy-load preload fade
+    ></plastic-image>
+    <plastic-image
+      class="grid-item"
+      srcset="images/galeria/DevfestNQN-2017-mañana9.jpg"
+      sizing="cover"
+      lazy-load preload fade
+    ></plastic-image>
+    <plastic-image
+      class="grid-item"
+      srcset="images/galeria/DevfestNQN-2017-mañana27.jpg"
+      sizing="cover"
+      lazy-load preload fade
+    ></plastic-image>
+    <plastic-image
+      class="grid-item"
+      srcset="images/galeria/DevfestNQN-2017-mañana41.jpg"
+      sizing="cover"
+      lazy-load preload fade
+    ></plastic-image>
+    <plastic-image
+      class="grid-item"
+      srcset="images/galeria/DevfestNQN-2017-mañana46.jpg"
+      sizing="cover"
+      lazy-load preload fade
+    ></plastic-image>
+      <!-- </template> -->
       <div class="gallery-info" layout vertical justified>
         <div>
           <h2>{$ galleryBlock.title $}</h2>

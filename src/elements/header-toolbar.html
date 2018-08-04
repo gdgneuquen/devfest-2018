@@ -113,6 +113,7 @@
       }
 
       .buy-button {
+        background-color: #e0393e!important;
         margin-top: 12px;
       }
 
@@ -156,7 +157,9 @@
 
         <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
            ga-event-category="ticket button" ga-event-action="buy_click">
-          <paper-button class="buy-button" primary>{$ buyTicket $}</paper-button>
+          <paper-button class="buy-button" primary>
+            <iron-icon src="/images/meetup-logo.png"></iron-icon>
+            {$ buyTicket $}</paper-button>
         </a>
       </paper-tabs>
 

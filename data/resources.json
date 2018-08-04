@@ -1,43 +1,43 @@
 {
-  "title": "GDG DevFest Season 2018",
-  "description": "Be a hero. Be a GDG!",
+  "title": "GDG Neuquén DevFest 2018",
+  "description": "El GDG de la Patagonia.",
   "image": "images/social-share.jpg",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "October 12-13, 2018",
-  "partnershipProposition": "https://bit.ly/dfua17-partners",
-  "share": "Share",
-  "followOur": "Follow our",
-  "followUs": "Follow us",
-  "emailUs": "Email us",
-  "partnershipResources": "Partnership Resources",
-  "eventResources": "Event Resources",
-  "buyTicket": "Buy ticket",
-  "signIn": "Sign in",
-  "signOut": "Sign out",
-  "viewHighlights": "View Highlights",
-  "offlineMessage": "You can still work offline.",
-  "cachingComplete": "Caching complete! Future visits will work offline.",
-  "newVersionAvailable": "A new version of this app is available.",
-  "refresh": "Refresh",
-  "position": "Position",
-  "country": "Country",
-  "time": "Time",
+  "dates": "15 de Septiembre, 2018",
+  "partnershipProposition": "",
+  "share": "Compartir",
+  "followOur": "Seguí nuestro",
+  "followUs": "Seguinos",
+  "emailUs": "Contactanos",
+  "partnershipResources": "",
+  "eventResources": "Recursos del evento",
+  "buyTicket": "Inscribete",
+  "signIn": "Inicia sesión",
+  "signOut": "Cerrar sesión",
+  "viewHighlights": "Mirá momentos",
+  "offlineMessage": "Se puede seguir sin conexión.",
+  "cachingComplete": "Se guardaron data para que puedas volver aunque sea offline.",
+  "newVersionAvailable": "Estas desactualizado, hay una nueva versión.",
+  "refresh": "Recargar",
+  "position": "Posición",
+  "country": "Ciudad",
+  "time": "Tiempo",
   "faq": "/data/faq.md",
   "cod": "/data/cod.md",
   "footer": {
     "blog": "Blog"
   },
   "mySchedule": {
-    "title": "My Schedule",
-    "browseSession": "Browse sessions"
+    "title": "Mi agenda",
+    "browseSession": "Navega sesiones"
   },
   "footerRelBlock": [
     {
-      "title": "About",
+      "title": "Acerca",
       "links": [
         {
-          "name": "GDG Lviv",
-          "url": "http://lviv.gdg.org.ua/",
+          "name": "GDG Neuquen",
+          "url": "",
           "newTab": true
         },
         {
@@ -46,53 +46,53 @@
           "newTab": true
         },
         {
-          "name": "Meet the Team",
-          "url": "https://devfest.gdg.org.ua/team/",
+          "name": "Conoce al equipo",
+          "url": "",
           "newTab": true
         }
       ]
     },
     {
-      "title": "Explore Past DevFests",
+      "title": "Explora Nuestras reuniones",
       "links": [
         {
-          "name": "DFUA 2013",
-          "url": "http://gdg-devfest-ua.appspot.com/",
+          "name": "Study Jam Machine Learning",
+          "url": "https://www.meetup.com/es-ES/gdgneuquen/events/252418801/",
           "newTab": true
         },
         {
-          "name": "DFUA 2014",
-          "url": "https://dfua14.firebaseapp.com//",
+          "name": "Study Jam Cloud",
+          "url": "https://www.meetup.com/es-ES/gdgneuquen/events/249849046/",
           "newTab": true
         },
         {
-          "name": "DFUA 2015",
-          "url": "https://dfua15.firebaseapp.com/",
+          "name": "Como hacer Apps para Google Assistant",
+          "url": "https://www.meetup.com/es-ES/gdgneuquen/events/252195330/",
           "newTab": true
         },
         {
-          "name": "DFUA 2016",
-          "url": "https://dfua16.firebaseapp.com/",
+          "name": "Juntadas Nuevas tecnologías",
+          "url": "https://www.meetup.com/es-ES/gdgneuquen/events/252418883/",
           "newTab": true
         }
       ]
     },
     {
-      "title": "Event Resources",
+      "title": "Recursos de los eventos",
       "links": [
         {
-          "name": "Partnership Proposition",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
+          "name": "Propuesta de sponsor",
+          "url": "",
           "newTab": true
         },
         {
-          "name": "Info Partnership Proposition",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
+          "name": "Info Propuesta de sponsor",
+          "url": "",
           "newTab": true
         },
         {
           "name": "Media Kit",
-          "url": "https://devfest.gdg.org.ua/assets/GDG_DevFest_2016_partnership_proposition.pdf",
+          "url": "",
           "newTab": true
         },
         {
@@ -108,38 +108,38 @@
       ]
     }
   ],
-  "subscribeNote": "No spam, only the latest news and updates!",
-  "codeOfConduct": "Code of Conduct",
+  "subscribeNote": "Te enviaremos solo información importante.",
+  "codeOfConduct": "Conducta esperada",
   "aboutBlock": {
-    "title": "What you need to know, before you ask.",
+    "title": "Todo lo que necesitas saber antes de preguntar.",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Ukraine brings together the world class experts in Android, Web and Cloud technologies to Lviv for 2 days of sessions, workshops and showcases.",
-        "label": "Explore featured session",
+        "description": "GDG DevFest Neuquen te trae charlas de expertos desarrolladores de google y talleres especializados con las últimas tecnologias para el desarrollo web, mobile, y en la nube.",
+        "label": "Explora el contenido que ofrecemos",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       },
       "howItWas": {
-        "description": "Described by many as 'Google I/O of Ukraine', our team creates DevFest to be the best place for experience sharing in a phenomenal atmosphere.",
-        "label": "See how it was in 2016",
+        "description": "Una gran experiencia que reune los expertos del país a dar charlas sobre las últimas tecnologias sobre desarrollo web, mobile, y en la nube.",
+        "label": "Mira como nos fue en GDG DevFest 2017",
         "youtubeId": "TdpbgRgz6eE"
       }
     },
     "statisticsBlock": {
       "attendees": {
-        "label": "Attendees",
+        "label": "Asistentes",
         "number": "900"
       },
       "days": {
-        "label": "Days",
-        "number": "2"
+        "label": "Días",
+        "number": "1"
       },
       "sessions": {
-        "label": "Sessions",
-        "number": "50"
+        "label": "Sesiones",
+        "number": "10"
       },
       "tracks": {
-        "label": "Tracks",
-        "number": "4"
+        "label": "Talleres",
+        "number": "3"
       }
     }
   },
@@ -151,31 +151,31 @@
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Partners",
-    "button": "Become a partner",
+    "title": "Sponsor",
+    "button": "¡Patrocinanos!",
     "form": {
-      "title": "Become a partner!",
-      "submitLabel": "Submit",
-      "fullName": "Full Name",
-      "companyName": "Company Name"
+      "title": "¡Buscamos patrocinador!",
+      "submitLabel": "Enviar",
+      "fullName": "Nombre completo",
+      "companyName": "Nombre de la empresa"
     },
-    "toast": "We will contact you soon!"
+    "toast": "¿Nos pondremos en contacto pronto!"
   },
   "featuredVideos": {
-    "title": "DFUA'16 featured videos",
+    "title": "Devfest 2017",
     "callToAction": {
-      "label": "See all videos",
-      "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
+      "label": "Videos",
+      "link": ""
     }
   },
   "blog": {
-    "published": "Published",
-    "suggested": "Up next"
+    "published": "Publicado",
+    "suggested": "Lo que sigue"
   },
   "latestPostsBlock": {
-    "title": "The latest news",
+    "title": "Últimas noticias",
     "callToAction": {
-      "label": "View all stories",
+      "label": "Mirá las historias",
       "link": "/blog/"
     }
   },
@@ -185,92 +185,92 @@
     "previousYear": "Year"
   },
   "speakersBlock": {
-    "title": "Rockstar speakers",
+    "title": "Speakers expertos",
     "callToAction": {
-      "label": "View all speakers",
+      "label": "Mirá todos los speakers",
       "link": "/speakers/"
     }
   },
   "previousSpeakersBlock": {
-    "title": "Previous speakers",
+    "title": "Anteriores",
     "callToAction": {
-      "label": "View all",
+      "label": "ver todo",
       "link": "/previous-speakers/"
     }
   },
   "galleryBlock": {
-    "title": "#dfua16 highlights",
-    "description": "This year's festival built lots of excitement. Check out photos from featured talks, hands-on learning sessions, and after-hours fun.",
+    "title": "Momentos del #devfest17",
+    "description": "El evento de ese año, aunque fue el primero, fue recibido con gran aceptacion, mirá las fotos de los momentos mas importantes.",
     "callToAction": {
-      "label": "See all photos",
+      "label": "Ver las fotos",
       "link": "https://goo.gl/photos/H8s3CtPexCzkLqSt9"
     }
   },
   "mapBlock": {
-    "title": "Location"
+    "title": "Ubicación"
   },
   "subscribeBlock": {
     "callToAction": {
-      "description": "Get notified about the important conference updates",
-      "label": "Subscribe"
+      "description": "Obtiene notificaciones sobre el evento",
+      "label": "Anotate"
     },
-    "yourEmail": "Your email",
-    "emailAddress": "Email Address",
-    "firstName": "First Name",
-    "lastName": "Last Name",
-    "formTitle": "Get the latest updates, insights and news about GDG DevFest Ukraine sent to your inbox.",
-    "emailRequired": "Please enter a valid email address.",
-    "subscribe": "Subscribe",
-    "subscribed": "Subscribed",
-    "close": "Close",
-    "generalError": "Some error has occured. Please, try again later.",
-    "toast": "Successfully subscribed!"
+    "yourEmail": "Tu email",
+    "emailAddress": "Dirección de Email",
+    "firstName": "Nombre",
+    "lastName": "Apellido",
+    "formTitle": "Obtiene informacion en tu email de nuestros próximos eventos.",
+    "emailRequired": "Por favor el email tiene que ser valido.",
+    "subscribe": "Subscribete",
+    "subscribed": "Subscrito",
+    "close": "Cerrar",
+    "generalError": "Ocurrio un error, probá otra vez.",
+    "toast": "¡Salió todo bien!"
   },
   "team": {
-    "description": "Google is known all around the world. Everyone is 'googling', checking on 'maps' and communicating in 'gmail'. For simple users, they are services that just works, but not for us. Developers see much more: APIs, scalability issues, complex technology stacks. And that is what GDG is about.<br><br> [Google Developers Group (GDG) Lviv](http://lviv.gdg.org.ua/) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion.<br><br> Our goal is to organize space to connect the best industry experts with Ukrainian audience to boost development of IT."
+    "description": "Una descripción sobre el equipo."
   },
   "schedule": {
-    "saveSessionsSignedOut": "Sign in to save sessions"
+    "saveSessionsSignedOut": "Inicia sesión para guardar la sesión"
   },
   "sessionDetails": {
-    "contentLevel": "Content level",
-    "viewPresentation": "View presentation",
-    "viewVideo": "View video",
+    "contentLevel": "Nivel de contenido",
+    "viewPresentation": "Mirá presentaciones",
+    "viewVideo": "Mirá videos",
     "speakers": "Speakers"
   },
   "speakerDetails": {
-    "sessions": "Sessions"
+    "sessions": "Sesiones"
   },
   "notifications": {
-    "default": "Enable notifications",
-    "enabled": "We will miss you but you can unsubscribe anytime",
-    "blocked": "We can't send you notifications right now. Please enable notifications in your browser",
-    "subscribe": "Subscribe",
-    "unsubscribe": "Unsubscribe",
+    "default": "Activa notificaciones",
+    "enabled": "Te vamos a extrañar pero todo bien, te podes desusbcribir",
+    "blocked": "No te podemos mandar notificaciones porque estamos bloqueados en tu navegador",
+    "subscribe": "Subscribete",
+    "unsubscribe": "Desubscribete",
     "enable": {
-      "label": "Enable",
+      "label": "Habilitar",
       "link": "https://pushassist.com/knowledgebase/how-to-enable-or-disable-push-notifications-on-chrome-firefox-safari-b/"
     },
     "toast": {
-      "title": "Open"
+      "title": "Abierto"
     }
   },
   "aboutOrganizerBlock": {
     "image": "/images/team.jpg",
     "blocks": [
       {
-        "title": "Organizer",
-        "description": "<a href='http://lviv.gdg.org.ua' target='_blank'>GDG Lviv</a> with support of 10 GDGs from all around Ukraine is proud organizer of DevFest Ukraine",
+        "title": "Organizadores",
+        "description": "GDG Neuquen, son un grupo de entusiastas de la tecnologia y emprendedores de la región.",
         "callToAction": {
-          "label": "Open team page",
+          "label": "Abrir la página de los organizadores.",
           "link": "/team"
         }
       },
       {
-        "title": "What is GDG?",
-        "description": "Google Developers Group (GDG) - is open and volunteer geek community who create exciting projects and share experience about Google technologies with a passion",
+        "title": "¿Que es un GDG?",
+        "description": "Google Developer Groups (GDG) es una comunidad mundial interesada en aprender, utilizar y promover las múltiples tecnologías de aplicaciones que ofrece Google. Está centrada en los desarrolladores y en contenido de tipo técnico educativo.",
         "callToAction": {
-          "label": "Read more",
+          "label": "Leer más. (En ingles)",
           "link": "https://developers.google.com/groups/",
           "newTab": true
         }
@@ -278,11 +278,11 @@
     ]
   },
   "signInDialog": {
-    "alreadyHaveAccount": "You already have an account",
-    "alreadyUsed": "You've already used",
+    "alreadyHaveAccount": "Ya tenes una cuenta",
+    "alreadyUsed": "Ya esta usada",
     "signInToContinue": {
-      "part1": "Sign in with",
-      "part2": "to continue."
+      "part1": "Inscribete con",
+      "part2": "para continuar."
     }
   }
 }

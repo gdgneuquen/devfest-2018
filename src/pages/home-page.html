@@ -20,7 +20,9 @@
     <style is="custom-style" include="shared-styles flex flex-alignment"></style>
 
     <style>
-
+      paper-button{
+        color:#e0393e!important;
+      }
       :host {
         display: block;
         height: 100%;
@@ -140,15 +142,15 @@
       hide-logo
     >
       <div class="home-content" layout vertical center>
-        <plastic-image class="hero-logo" srcset="/images/logo.svg" alt="{$ title $}"></plastic-image>
+        <plastic-image class="hero-logo" srcset="/images/logogdg.png" alt="{$ title $}"></plastic-image>
         <div class="info-items highlight-font">
-          <div class="info-item">{$ location.city $}. {$ dates $}</div>
+          <div class="info-item">{$ location.city $}. {$ dates $}</div> 
           <div class="info-item">{$ heroSettings.home.description $}</div>
         </div>
 
 
         <div class="action-buttons" layout horizontal center-justified wrap>
-          <paper-button
+          <!-- <paper-button
             on-tap="_playVideo"
             ga-on="click"
             ga-event-category="video"
@@ -157,18 +159,21 @@
           >
             <iron-icon icon="hoverboard:movie"></iron-icon>
             {$ viewHighlights $}
-          </paper-button>
-          <paper-button
-            on-tap="_scrollToTickets"
-            ga-on="click"
-            ga-event-category="tickets"
-            ga-event-action="scroll"
-            ga-event-label="hero block - scroll to tickets"
-            primary invert
-          >
-            <iron-icon icon="hoverboard:ticket"></iron-icon>
-            {$ buyTicket $}
-          </paper-button>
+          </paper-button> -->
+          <a href="https://www.meetup.com/es-ES/gdgneuquen/events/252419250/" target="_blank">
+            <paper-button
+              on-tap="_scrollToTickets"
+              ga-on="click"
+              ga-event-category="tickets"
+              ga-event-action="scroll"
+              ga-event-label="hero block - scroll to tickets"
+              primary invert
+            >
+              <iron-icon src="/images/meetup-logo.png"></iron-icon>
+              <!-- <i class="fa fa-meetup"></i> -->
+              {$ buyTicket $}
+            </paper-button>
+          </a>
         </div>
 
         <div class="scroll-down" on-tap="_scrollNextBlock">
@@ -183,11 +188,11 @@
     <about-block></about-block>
     <speakers-block></speakers-block>
     <subscribe-block></subscribe-block>
-    <tickets-block></tickets-block>
+    <!-- <tickets-block></tickets-block> -->
     <gallery-block></gallery-block>
     <about-organizer-block></about-organizer-block>
     <featured-videos></featured-videos>
-    <latest-posts-block></latest-posts-block>
+    <!-- <latest-posts-block></latest-posts-block> -->
     <map-block></map-block>
     <partners-block></partners-block>
     <footer-block></footer-block>
@@ -227,6 +232,7 @@
         const ticketsBlockPositionY = HOVERBOARD.Elements.Tickets.getBoundingClientRect().top
           - toolbarHeight;
         this.scrollToY(ticketsBlockPositionY, 600, 'easeInOutSine');
+
       }
 
       _scrollNextBlock() {
