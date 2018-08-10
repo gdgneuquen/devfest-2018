@@ -232,8 +232,7 @@
         const ticketsBlockPositionY = HOVERBOARD.Elements.Tickets.getBoundingClientRect().top
           - toolbarHeight;
         this.scrollToY(ticketsBlockPositionY, 600, 'easeInOutSine');
-
-      }
+        }
 
       _scrollNextBlock() {
         const heroHeight = this.$.hero.getBoundingClientRect().height - 64;
