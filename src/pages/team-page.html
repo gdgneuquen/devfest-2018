@@ -12,15 +12,14 @@
     <style is="custom-style" include="shared-styles flex flex-alignment"></style>
 
     <style>
-
-      :host  {
+      :host {
         display: block;
       }
 
       .description-wrapper {
-          background-color: var(--secondary-background-color);
-          width: 100%;
-          overflow: hidden;
+        background-color: var(--secondary-background-color);
+        width: 100%;
+        overflow: hidden;
       }
 
       .team-title {
@@ -72,7 +71,8 @@
           padding: 6px;
           width: 32px;
           height: 32px;
-        };
+        }
+        ;
 
         color: var(--secondary-text-color);
         transition: transform var(--animation);
@@ -87,7 +87,7 @@
           grid-template-columns: repeat(2, 1fr);
         }
 
-         .member {
+        .member {
           padding: 32px 0;
         }
       }
@@ -104,7 +104,7 @@
           grid-template-columns: repeat(3, 1fr);
         }
 
-         .photo {
+        .photo {
           width: 128px;
           height: 128px;
         }
@@ -112,22 +112,17 @@
 
     </style>
 
-    <polymer-helmet
-      title="{$ heroSettings.team.title $} | {$ title $}"
-      description="{$ heroSettings.team.metaDescription $}"
-      active="[[active]]"
-    ></polymer-helmet>
+    <polymer-helmet title="{$ heroSettings.team.title $} | {$ title $}" description="{$ heroSettings.team.metaDescription $}"
+      active="[[active]]"></polymer-helmet>
 
-    <hero-block
-      background-image="{$ heroSettings.team.background.image $}"
-      background-color="{$ heroSettings.team.background.color $}"
-      font-color="{$ heroSettings.team.fontColor $}"
-      active="[[active]]"
-    >
+    <hero-block background-image="{$ heroSettings.team.background.image $}" background-color="{$ heroSettings.team.background.color $}"
+      font-color="{$ heroSettings.team.fontColor $}" active="[[active]]">
       <div class="hero-title highlight-font">{$ heroSettings.team.title $}</div>
       <p class="hero-description">{$ heroSettings.team.description $}</p>
     </hero-block>
 
+    <p class="hero-description">{$ heroSettings.team.description $}</p>
+    </hero-block>
     <div class="description-wrapper">
       <div class="container" layout horizontal justified>
         <marked-element class="description" markdown="{$ team.description $}">
@@ -143,11 +138,7 @@
         <div class="team-block">
           <template is="dom-repeat" items="[[team.members]]" as="member">
             <div class="member" layout horizontal>
-              <plastic-image
-                class="photo"
-                srcset="[[member.photoUrl]]"
-                sizing="cover"
-                lazy-load preload fade>
+              <plastic-image class="photo" srcset="[[member.photoUrl]]" sizing="cover" lazy-load preload fade>
               </plastic-image>
 
               <div class="member-details" layout vertical center-justified start>
@@ -171,11 +162,12 @@
   </template>
 
   <script>
-
     class TeamPage extends ReduxMixin(Polymer.Element) {
-      static get is() {return 'team-page';}
+      static get is() {
+        return 'team-page';
+      }
 
-       static get properties() {
+      static get properties() {
         return {
           active: Boolean,
           team: {
@@ -205,4 +197,3 @@
 
   </script>
 </dom-module>
-
