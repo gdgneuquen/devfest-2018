@@ -1,4 +1,6 @@
 <link rel="import" href="../../bower_components/polymer/polymer-element.html">
+<link rel="import" href="../../bower_components/dom-if-else/dom-if-else.html">
+
 
 <link rel="import" href="../mixins/redux-mixin.html">
 <link rel="import" href="./shared-styles.html">
@@ -153,17 +155,16 @@
         </paper-tab>
         {% endfor %}
 
-        <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab>
+        <!-- <paper-tab class="signin-tab" on-tap="signIn" link hidden$="[[user.signedIn]]">{$ signIn $}</paper-tab> -->
 
-        <a href$="[[_getTicketUrl(tickets)]]" target="_blank" rel="noopener noreferrer" ga-on="click"
-           ga-event-category="ticket button" ga-event-action="buy_click">
+        <a href="https://www.meetup.com/es-ES/gdgneuquen/events/252419250/" target="_blank" rel="noopener noreferrer"  >
           <paper-button class="buy-button" primary>
             <iron-icon src="/images/meetup-logo.png"></iron-icon>
             {$ buyTicket $}</paper-button>
         </a>
       </paper-tabs>
 
-      <paper-menu-button
+      <!-- <paper-menu-button
         id="notificationsMenu"
         class="notifications-menu"
         vertical-align="top"
@@ -197,7 +198,7 @@
             </div>
           </div>
         </div>
-      </paper-menu-button>
+      </paper-menu-button> -->
 
       <paper-menu-button
         class="auth-menu"
@@ -224,6 +225,7 @@
       </paper-menu-button>
 
       <paper-icon-button
+        
         icon="hoverboard:account"
         on-tap="signIn"
         hidden$="[[_isAccountIconHidden(user.signedIn, viewport.isLaptopPlus)]]"
@@ -233,7 +235,10 @@
   </template>
 
   <script>
-
+    function clicked() {
+      var t=document.getElementById('#domIf');
+      t.set('if',!t.if);
+    }
     class HeaderToolbar extends ReduxMixin(Polymer.Element) {
       static get is() {
         return 'header-toolbar';

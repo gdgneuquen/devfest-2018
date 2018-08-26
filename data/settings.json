@@ -32,11 +32,6 @@
       "route": "schedule",
       "permalink": "/schedule/",
       "label": "AGENDA"
-    },
-    {
-      "route": "team",
-      "permalink": "/team/",
-      "label": "ORGANIZADORES"
     }
   ],
   "heroSettings": {
@@ -81,22 +76,7 @@
       },
       "fontColor": "#424242"
     },
-    "team": {
-      "title": "Organizadores",
-      "metaDescription": "Mas info de los organizadores",
-      "background": {
-        "color": "#fff"
-      },
-      "fontColor": "#424242"
-    },
-    "faq": {
-      "title": "FAQs",
-      "metaDescription": "Encontra todas las respuestas acá!",
-      "background": {
-        "color": "#fff"
-      },
-      "fontColor": "#424242"
-    },
+    
     "cod": {
       "title": "Conducta esperada",
       "metaDescription": "Lo que esperamos de nuestra comunidad es solo buen comportamiento y ganas de aprender",
