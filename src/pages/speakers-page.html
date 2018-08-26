@@ -150,8 +150,8 @@
     </style>
 
     <polymer-helmet
-      title="Speakers | GDG DevFest Ukraine"
-      description="Learn more about speakers"
+      title="Speakers"
+      description="Estos son los speakers que daran conferencias charlas y talleres."
       active="[[_setHelmetData(active, isDialogOpened)]]"
     ></polymer-helmet>
 
@@ -162,7 +162,7 @@
     ></app-route>
 
     <hero-block
-      background-image="/images/logogdg.png"
+      background-image="{$ heroSettings.speakers.background.image $}"
       background-color="{$ heroSettings.speakers.background.color $}"
       font-color="{$ heroSettings.speakers.fontColor $}"
       active="[[active]]"

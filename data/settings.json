@@ -58,6 +58,7 @@
       "background": {
         "color": "#FFF"
       },
+      "image":"/images/backgrounds/image1.jpg",
       "fontColor": "#424242"
     },
     "previousSpeakers": {
@@ -153,7 +154,7 @@
       }
     ]
   },
-  "mailto": "",
+  "mailto": "contacto@gdgneuquen.org",
   "mailchimp": {
     "url": "",
     "name": ""
