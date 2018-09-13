@@ -1,9 +1,9 @@
 {
-  "title": "GDG Neuquén DevFest 2018",
-  "description": "El GDG de la Patagonia.",
-  "image": "images/social-share.jpg",
+  "title": "DevFest Neuquén 2018",
+  "description": "Conferencia Anual para Developers :: GDD Neuquén",
+  "image": "images/social-share.png",
   "keywords": "event, gdg, gde, devfest, google, programming, android, chrome, polymer, developers, web, cloud, androiddev",
-  "dates": "15 de Septiembre, 2018",
+  "dates": "Sabado 15 de Septiembre 09:00 hs",
   "partnershipProposition": "",
   "share": "Compartir",
   "followOur": "Seguí nuestro",
@@ -79,7 +79,7 @@
     "title": "Todo lo que necesitas saber antes de preguntar.",
     "callToAction": {
       "featuredSessions": {
-        "description": "GDG DevFest Neuquen te trae charlas de expertos desarrolladores de google y talleres especializados con las últimas tecnologias para el desarrollo web, mobile, y en la nube.",
+        "description": "DevFest Neuquén es nuestra Conferencia Anual de Desarrolladores de todo el día, que ofrece sesiones de Expertos locales y de Google sobre múltiples áreas de productos/tecnologias y más!",
         "label": "Explora el contenido que ofrecemos",
         "link": "https://www.youtube.com/playlist?list=PLt8lEzcLNl31AouwDkbLbLARlQFwNS2en"
       },
@@ -92,7 +92,7 @@
     "statisticsBlock": {
       "attendees": {
         "label": "Asistentes",
-        "number": "200"
+        "number": "250"
       },
       "days": {
         "label": "Días",
@@ -100,11 +100,11 @@
       },
       "sessions": {
         "label": "Sesiones",
-        "number": "10"
+        "number": "13"
       },
       "tracks": {
         "label": "Talleres",
-        "number": "3"
+        "number": "5"
       }
     }
   },
@@ -116,7 +116,7 @@
     "save": "Save ${discount}% today"
   },
   "partnersBlock": {
-    "title": "Sponsor",
+    "title": "Sponsors: ",
     "button": "¡Patrocinanos!",
     "form": {
       "title": "¡Buscamos patrocinador!",
@@ -225,17 +225,17 @@
     "blocks": [
       {
         "title": "Organizadores",
-        "description": "GDG Neuquen, son un grupo de entusiastas de la tecnologia y emprendedores de la región.",
+        "description": "Este año GDG Neuquen tiene el gusto de Organizar el DevFest 2018 con la Facultad de Informatica de la UNCo.",
         "callToAction": {
           "label": "Visita la web",
           "link": "http://gdgneuquen.org/"
         }
       },
       {
-        "title": "¿Que es un GDG?",
-        "description": "Google Developer Groups (GDG) es una comunidad mundial interesada en aprender, utilizar y promover las múltiples tecnologías de aplicaciones que ofrece Google. Está centrada en los desarrolladores y en contenido de tipo técnico educativo.",
+        "title": "¿Que es GDG Neuquen?",
+        "description": "Los Google Developer Groups (GDG) es una comunidad mundial interesada en aprender, utilizar y promover las múltiples tecnologías de aplicaciones que ofrece Google. Está centrada en los desarrolladores y en contenido de tipo técnico educativo. Actualmente hay mas de 750 Grupos alrededor del mundo con mas de 430.000 Miembros.",
         "callToAction": {
-          "label": "Leer más. (En ingles)",
+          "label": "Mas Info. (En ingles)",
           "link": "https://developers.google.com/groups/",
           "newTab": true
         }

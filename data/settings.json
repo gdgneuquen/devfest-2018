@@ -36,7 +36,7 @@
   ],
   "heroSettings": {
     "home": {
-      "description": "El GDG de la patagonia",
+      "description": "DevFest Neuquén es nuestra Conferencia Anual para Developers de todo un dia",
       "background": {
         "color": "#673ab7",
         "image": "/images/backgrounds/image1.jpg"
@@ -53,8 +53,8 @@
     },
     "speakers": {
       "title": "Speakers",
-      "metaDescription": "Son Google Developert Expert y promesas locales que estan para compartir el entusiasmo y el conocimiento con todos los interesados.",
-      "description": "Son Google Developert Expert y promesas locales que estan para compartir el entusiasmo y el conocimiento con todos los interesados.",
+      "metaDescription": "Nuevamente es un gusto contar con Google Developer Experts y Speakers Locales de Primera Linea.",
+      "description": "Nuevamente es un gusto contar con Google Developer Experts y Speakers Locales de Primera Linea.",
       "background": {
         "color": "#FFF"
       },

@@ -121,7 +121,7 @@
         }
 
         .hero-logo {
-          max-width: 320px;
+          max-width: 640px;
         }
 
         .info-items {
@@ -135,10 +135,12 @@
 
     <polymer-helmet active="[[active]]"></polymer-helmet>
 
-    <hero-block id="hero" background-image="https://firebasestorage.googleapis.com/v0/b/devfest2018-e2884.appspot.com/o/devfest18-PNG-FACE.png?alt=media&token=e2732799-6cdf-457a-9aa1-6b8652a44f32"
-      background-color="{$ heroSettings.home.background.color $}" font-color="{$ heroSettings.home.fontColor $}" active="[[active]]"
+    <hero-block id="hero" 
+      background-image="/images/backgrounds/fondo.png"
+      background-color="{$ heroSettings.home.background.color $}"
+      font-color="{$ heroSettings.home.fontColor $}" active="[[active]]"
       hide-logo>
-      <!-- <div class="home-content" layout vertical center>
+       <div class="home-content" layout vertical center>
         <plastic-image class="hero-logo" srcset="/images/logogdg.png" alt="{$ title $}"></plastic-image>
         <div class="info-items highlight-font">
           <div class="info-item">{$ location.city $}. {$ dates $}</div> 
@@ -165,7 +167,7 @@
           </svg>
           <i class="icon icon-arrow-down"></i>
         </div>
-      </div> -->
+      </div> 
     </hero-block>
     <about-block></about-block>
     <speakers-block></speakers-block>
