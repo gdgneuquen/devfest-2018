@@ -22,16 +22,6 @@
       "route": "home",
       "permalink": "/",
       "label": "INICIO"
-    },
-    {
-      "route": "speakers",
-      "permalink": "/speakers/",
-      "label": "SPEAKERS"
-    },
-    {
-      "route": "schedule",
-      "permalink": "/schedule/",
-      "label": "AGENDA"
     }
   ],
   "heroSettings": {
